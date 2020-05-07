@@ -1,0 +1,522 @@
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.floated{
+    float: right;
+    width: 26.25rem;
+
+}
+
+body{
+
+  position: relative;
+  height: 2936px;
+  width:1440px;
+  z-index: 0;
+  margin: auto;
+}
+
+
+.font1rem{
+  color: #31373D;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  width: 38.125rem;
+  text-align: left;
+  height: 5.756rem;
+
+}
+.font1Halfrem{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  text-align: center;
+  color: #31373D;
+}
+/* top BOX */
+.BigHeader {
+  color: #31373D;
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 3.625rem;
+  width: 38.125rem;
+  height:8.378rem;
+  text-align: left;
+  position: absolute;
+  left:13.75rem;
+  top:10.375rem;
+
+}
+.heading .font1rem {
+
+  position: absolute;
+  left:13.75rem;
+  top:19.0rem;
+
+}
+.cta-text {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.1875rem;
+  text-align: center;
+}
+.bg{
+  background-color: #0099FF;
+  border-radius: 0.1875rem;
+  width: 13.75rem;
+  height: 3.0rem;
+}
+.buttons .bg{
+  position: absolute;
+  left:13.438rem;
+  top:24.25rem;
+
+}
+.globe{
+  position: absolute;
+  top:140px;
+  left: 946px;
+}
+.outline {
+  border: 2px solid #0099FF;
+  border-radius: 3px;
+  width:13.875rem;
+  height:3.0rem;
+  position: absolute;
+  left:28.438rem;
+  top:24.25rem;
+
+}
+/* features */
+.bg1 {
+  background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
+  width:79.188rem;
+  height:25.562rem;
+  position: absolute;
+  left:5.438rem;
+  top:38.625rem;
+  z-index: -1;
+}
+
+.feature .feature-heading {
+
+  width:13.5rem;
+  height:4.25rem;
+  position:absolute;
+  left:38.281rem;
+  top:40.812rem;
+}
+.background-img {
+  background-color: #FFFFFF;
+  box-shadow: 0 0.5rem 1.188rem 0 rgba(0, 0, 0, 0.05);
+  width:43.625rem;
+  height:32.062rem;
+  position:absolute;
+  left:23.188rem;
+  top:47.438rem;
+}
+.compare-head {
+  color: #31373D;
+  position:absolute;
+  left:37.188rem;
+  top:84.812rem;
+}
+.compare-text {
+  color: #8B8E91;
+  font-size: 0.875rem;;
+  font-weight: 400;
+  line-height: 1.5rem;
+  width:28.062rem;
+  text-align: center;
+  position: absolute;
+  left:31.625rem;
+  top:87.062rem;
+}
+
+
+/* serving */
+
+.serving{
+  background-color: #FFFFFF;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.26);
+    width:7.812rem;
+    height:2.875rem;
+
+}
+
+.servingBorder{
+  border: solid;
+
+  border-color: #0099FF;
+  border-width:0.218rem;
+}
+#serving25 {
+  position: absolute;
+  left:29.375rem;
+  top:91.375rem;
+
+}
+
+
+#serving50 {
+
+  position: absolute;
+  left:37.188rem;
+  top:91.375rem;
+
+}
+#serving100 {
+
+  position: absolute;
+  left:45.0rem;
+  top:91.375rem;
+}
+#serving200 {
+
+  position: absolute;
+  left:52.812rem;
+  top:91.375rem;
+}
+
+.servingtext {
+  color: #4A4A4A;
+
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.062rem;
+  text-align: center;
+  position: relative;
+  top:1rem;
+
+}
+
+#annual {
+  color: #31373D;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.188rem;
+  width: 4.5rem;
+  text-align: left;
+  position:absolute;
+  left:38.938rem;
+  top:97.0rem;
+}
+#monthly {
+  color: #31373D;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.188rem;
+  width: 4.5rem;
+  text-align: left;
+  position:absolute;
+  left:47.125rem;
+  top:97.0rem;
+}
+.togglebar {
+
+  border-radius: 0.438rem;
+  position:absolute;
+  width:2.75rem;
+  height:0.875rem;
+  background-color: #D8D8D8;
+  opacity: 0.6388346354166666;
+  left:43.312rem;
+  top:97.175rem;
+}
+
+#oval {
+  background-color: #0099FF;
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top:96.875rem;
+}
+.monthsub{
+  left:44.562rem;
+}
+.yearsub{
+  left:43.312rem;
+}
+
+.off50 {
+  color: #8B8E91;
+
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  width: 3.75rem;
+  text-align: left;
+
+position:absolute;
+left:38.938rem;
+top:98.25rem;
+}
+
+
+.pricing {
+  background-color: #FFFFFF;
+  box-shadow: 0 .125px 0.312rem 0 rgba(113, 100, 100, 0.3);
+  width:29.75rem;
+  height:12.5rem;
+  position: relative;
+  left:23.812rem;
+  top:101.812rem;
+}
+.yourprice{
+  background-color: #FFFFFF;
+  box-shadow: 0 .5rem 1.118rem 0 rgba(0, 0, 0, 0.16);
+  width:13.375rem;
+  height:14.375rem;
+  position: absolute;
+  left:52.812rem;
+  top:100.875rem;
+
+}
+
+.pricinghead{
+  color: #31373D;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: ​1.75;
+  text-align: left;
+
+}
+.lollipop{
+position:absolute;
+left:26.562rem;
+top:104.375rem;
+}
+
+.icecandy{
+position:absolute;
+left:40.438rem;
+top:104.375rem;
+}
+.yourprice-position{
+  position:absolute;
+  left:54.25rem;
+  top:104.0rem;
+}
+.price{
+  color: #3D3C31;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  text-align: left;
+  width:4.5rem;
+  height:2.125rem;
+  position: absolute;
+  top:107.875rem;
+}
+#loli .price{
+  left:26.562rem;
+}
+#ice .price{
+  left:40.5rem;
+}
+#your .price{
+  left:54.25rem;
+  top:108.25rem;
+  color:#0099FF
+}
+.permonth{
+  color: #8B8E91;
+  font-size: .875rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.375rem;
+  width:4.875rem;
+  height:1.25rem;
+  position: absolute;
+  text-align: left;
+  top:108.5rem;
+
+}
+
+#loli .permonth{
+  left:31.25rem;
+}
+#ice .permonth{
+  left:45.312rem;
+}
+#your .permonth{
+  left:54.312rem;
+  top:110.312rem;
+}
+.perserving{
+
+  color: #31373D;
+
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  width: 9.75rem;
+  text-align: left;
+
+
+}
+#loli .perserving{
+  position: absolute;
+  left:26.562rem;
+  top:110.5rem;
+}
+#ice .perserving{
+  position: absolute;
+  left:40.5rem;
+  top:110.5rem;
+
+}
+
+/* testimony */
+.people{
+width:17.375rem;
+height:17.375rem;
+position: relative;
+left: 20.812rem;
+}
+
+.customers{
+  color: #31373D;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  text-align: center;
+  position: absolute;
+  left:33.688rem;
+  top:123.688rem;
+
+}
+#peopleCarousel{
+  position: absolute;
+  top:130.125rem;
+  width: 100%;
+}
+
+.fas{
+  color: #0099ff;
+  border: none;
+  margin-right: 0;
+  float: left;
+  margin-bottom: 100px;
+}
+.quotes{
+font-size: 40px;
+position: relative;
+right:50px;
+bottom: 13px;
+
+}
+
+
+.testimonial{
+  position: absolute;
+  width: 26.25rem;
+  color: #8B8E91;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.375rem;
+  text-align: left;
+  top:0.625rem;
+  left:41.562rem;
+}
+
+.carousel-indicators li {
+  width: 0.625rem;
+  height: 0.625rem;;
+  border-radius: 100%;
+  background-color: #888888;
+  position: relative;
+  top: 1.875rem;
+  left: 3.125rem;
+
+
+}
+.carousel-indicators .active{
+  background-color: #0099FF;
+}
+
+/* bottomBox lovedby */
+
+.names {
+  color: #31373D;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  text-align: left;
+  position: relative;
+  bottom:9.375rem;
+  left: 43.988rem;
+}
+.desc {
+  color: #31373D;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2.125rem;
+  text-align: left;
+  position: relative;
+  bottom:10.188rem;
+  left: 43.988rem;
+}
+
+
+.loved{
+
+  color: #31373D;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.125rem;
+  text-align: left;
+  position: absolute;
+  left: 20.812rem;
+  top: 163.125rem;
+  }
+
+  .loved-text{
+    color: #8B8E91;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  width: 24.188rem;
+  text-align: left;
+  position: absolute;
+  left: 20.812rem;
+  top:168.75rem;
+  }
+.luggage{
+  position: absolute;
+  left:55.375rem;
+  top:159.375rem;
+  width:18.991rem;
+  height:20.938rem;
+}
+#userLoved .bg{
+  position: absolute;
+  left:20.812rem;
+  top:175.0rem;
+
+}
+.halftome{
+  position: absolute;
+  left:63.75rem;
+  top:164.812rem;
+  width: 10.616rem;
+  height: 10.0rem;
+  opacity: 29;
+}
